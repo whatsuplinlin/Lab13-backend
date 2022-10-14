@@ -91,6 +91,12 @@ public class InitApp implements ApplicationListener<ApplicationReadyEvent> {
                 .build());
         org3.getOwnEvents().add(tempEvent);
         addUser();
+        org1.setUser(user1);
+        user1.setOrganizer(org1);
+        org2.setUser(user2);
+        user2.setOrganizer(org2);
+        org3.setUser(user3);
+        user3.setOrganizer(org3);
     }
 
     User user1, user2, user3;
