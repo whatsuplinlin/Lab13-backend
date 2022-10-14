@@ -1,4 +1,4 @@
-FROM openjdk:16-jdk-alpine
+FROM openjdk:18-jdk-alpine
 RUN addgroup -S spring && adduser -S spring -G spring
 EXPOSE 8080
 
